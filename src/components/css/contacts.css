@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    color: #222222;
+}
+
+th, td {
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #1C5D99;
+    color: #ffffff;
+    border: 1px solid #195186;
+}
+
+td{
+    border-bottom: 1px solid #BBCDE5;
+}

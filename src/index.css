@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.edit-btn {
+  outline: 0;
+  background-color: #4671D5;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 3px solid #4671D5;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.edit-btn:hover,
+.edit-btn:focus {
+  background-color: #6C8CD5;
+  border-color: #6C8CD5;
+}
+
+.delete-btn {
+  outline: 0;
+  background-color: #FD3F49;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 3px solid #FD3F49;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.delete-btn:hover, 
+.delete-btn:focus {
+  background-color: #FD7279;
+  border-color: #FD7279;
+}
+
+.add-btn {
+  outline: 0;
+  background-color: #482ace;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 3px solid #482ace;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: 0.3s;
+  display: block;
+  margin: 40px auto;
+}
+
+.add-btn:hover,
+.add-btn:focus {
+  background-color: #6f51f7;
+  border-color: #6f51f7;
+}

@@ -1,0 +1,69 @@
+.save-btn {
+    outline: 0;
+    background-color: #27e27b;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 3px solid #27e27b;
+    color: #FFFFFF;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.save-btn:hover,
+.save-btn:focus {
+    background-color: #38f78e;
+    border-color: #38f78e;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    width: 55%;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.modal-body input {
+    outline: 0;
+    width: 65%;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.modal-body input:hover,
+.modal-body input:focus {
+    border: 2px solid #1C5D99;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
